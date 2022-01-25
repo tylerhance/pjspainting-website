@@ -28,7 +28,7 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
       <li>
         <a
-          href="#resume"
+          href="#services"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Services" ? "nav-link active" : "nav-link"}
         >
