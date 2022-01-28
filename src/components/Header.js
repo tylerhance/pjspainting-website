@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Header.css";
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -24,7 +24,7 @@ function Header() {
     const classes = useStyles();
     return(
         <header className="header">
-            {/* <Avatar alt="Tyler Hance" src={Photo} className={classes.medium} /> */}
+          
             <h1>Untitled</h1>
 
         </header>

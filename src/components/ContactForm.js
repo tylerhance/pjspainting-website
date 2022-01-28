@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Button from '@material-ui/core/Button';
+// import Button from '@material-ui/core/Button';
 import "../styles/ContactForm.css";
 import "../styles/About.css";
 
-import { validateEmail } from "./utils/helpers";
+import { validateEmail } from "../components/utils/helper.js";
 
 function ContactForm() {
     const [email, setEmail] = useState("");

@@ -4,7 +4,7 @@ import About from "./pages/About.js";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
-import "../styles/PortfolioContainer.css";
+// import "../styles/PortfolioContainer.css";
 
 
 export default function PortfolioContainer() {
